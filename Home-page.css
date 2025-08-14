@@ -1,0 +1,41 @@
+#header{
+    background-color: rgb(102, 99, 96);
+    height: 200px;
+}
+
+#nav-section{
+    display: block;
+}
+
+#video-clip{
+    border: ridge grey 0.5px;
+    background-color: grey;
+    position: absolute;
+    max-height: 300px;
+    width: auto;
+    z-index: -1;
+
+}
+
+
+#sub-text{
+    font-family: cursive;
+    font-size: medium;
+    color: rgba(80, 18, 138, 0.5);
+    
+    text-transform:uppercase;
+    background: linear-gradient(from left, rgba(150, 60, 235, 0.5),rgba(0, 0, 0, 0.5));
+
+
+}
+
+#carosal{
+    border: ridge grey 0.5px;
+    background-color: grey;
+    position: absolute;
+    max-height: 300px;
+    width: auto;
+}
+
+
+
