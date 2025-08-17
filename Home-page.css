@@ -1,11 +1,13 @@
 body{
     background-image: url(./images/f4b93dbd6691f861c0b2e58e68a60595.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: fill;
+    background-repeat: repeat;
+    background-position: center;
+    
     
 }
 
-#header{
+ #header{
     background-color: rgb(102, 99, 96);
     height: 200px;
     
@@ -56,12 +58,85 @@ body{
     width: auto;
 }
 
+/* mens section starts*/
+
+#MENS-section{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    max-height: 75vh;
+    min-height: 30vh;
+    border: solid rgb(255, 247, 247) 2px;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    margin: 5%;
+    margin-left:0%;
+    margin-right:0%;
+}
+
+.men-sec img{
+    object-fit: contain;
+    max-height: 24vh;
+    min-width: 15vw;
+    border: solid rgb(253, 0, 0) 3px;
+    background-color: aliceblue;
+} 
+
+/*women section starts*/
+
+#WOMEN-section{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    max-height: 75vh;
+    min-height: 30vh;
+    border: solid rgb(255, 247, 247) 2px;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    margin: 5%;
+    margin-left:0%;
+    margin-right:0%;
+}
+
+.women-sec img{
+    object-fit: contain;
+    max-height: 24vh;
+    min-width: 15vw;
+    border: solid rgb(253, 0, 0) 3px;
+    background-color: aliceblue;
+} 
+
+/*footware section*/
+
+ #FOOTWARE-section{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    max-height: 75vh;
+    min-height: 30vh;
+    border: solid rgb(255, 247, 247) 2px;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    margin: 5%;
+    margin-left:0%;
+    margin-right:0%;
+}
+
+.footware-sec img{
+    object-fit: contain;
+    max-height: 24vh;
+    min-width: 15vw;
+    border: solid rgb(253, 0, 0) 3px;
+    background-color: aliceblue;
+}
+
+
 #footer{
     top: 100%;
     display: flex;
     align-content: center;
     justify-content: space-between;
-}
+} 
 
 
 
